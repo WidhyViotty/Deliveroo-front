@@ -1,4 +1,57 @@
 .App {
-  text-align: center;
+  width: 1200px;
+  margin-left: 120px;
+  margin-right: 120px;
+  border: solid red;
 }
 
+img {
+  width: 250px;
+
+}
+
+header{
+  border-bottom: solid #E8EBEB;
+  height: 60px;
+}
+
+.logo{
+  max-height: 100%;
+  width: auto;
+}
+
+.resto{
+  width: 1200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.section{
+  width: 820px;
+  border: solid blue;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.title{
+  height: 60px;
+  width: 820px;
+  border: solid green;
+  
+}
+
+.meal{
+width: 400px;
+height: 160px;
+border: solid orange;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+
+.mealPic{
+  width: 130px;
+  height: 130px;
+}
